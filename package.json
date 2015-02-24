@@ -1,0 +1,38 @@
+{
+  "name": "esformatter-shebang-ignore",
+  "version": "1.0.0",
+  "description": "esformatter plugin: ignore jsx blocks so the rest of the javascript code could be formatted",
+  "repository": "royriojas/esformatter-shebang-ignore",
+  "license": "MIT",
+  "author": {
+    "name": "Roy Riojas",
+    "url": "http://royriojas.com"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec test",
+    "watch": "mocha -R spec --watch test"
+  },
+  "keywords": [
+    "esformatter-plugin",
+    "esformatter",
+    "shebang",
+    "ignoreshebang",
+    "ignore shebang",
+    "AST",
+    "codestyle"
+  ],
+  "peerDependencies": {},
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "*",
+    "esformatter": "^0.4.3",
+    "mocha": "^2.1.0"
+  }
+}
